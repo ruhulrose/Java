@@ -1,4 +1,5 @@
 package Recursion;
+// A program which find the factorial of any number
 
 import java.util.Scanner;
 

@@ -1,11 +1,14 @@
 package GuessTheNumberGame;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class Game {
     public static void main(String[] args) {
         MainGame game= new MainGame();
+        System.out.printf("Hello There!\nThis is a game called Guess The Number.\nHere computer take a number between 0 to 100.\nYou need to guess whats that number.\nUse your brain and play this game. Lets enjoy :)\n");
         boolean b= false;
         while (!b){
             game.takeUserInput();
@@ -40,8 +43,10 @@ class MainGame{
             return true;
         } else if (inputNumber<number) {
             System.out.println("Too low......");
+            System.out.println("Try more big number :)");
         } else if (inputNumber>number) {
             System.out.println("Too high.....");
+            System.out.println("Try more small number :)");
         }
         return false;
     }

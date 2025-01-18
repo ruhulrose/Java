@@ -87,7 +87,7 @@ public class TicTacToe {
         drawBoard();
         System.out.println("\uD83C\uDFAE Game over! \uD83C\uDFAE");
         if (whoWonTheGame !=null){
-            System.out.println(whoWonTheGame+ "won the game, "+ "Congratulation? \uD83C\uDF8A \uD83C\uDF89");
+            System.out.println(whoWonTheGame+ " won the game, "+ "Congratulation? \uD83C\uDF8A \uD83C\uDF89");
         }else {
             System.out.println("Sounds like it's a tie! Play again!");
         }
